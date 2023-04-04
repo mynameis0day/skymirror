@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+#配置SpringMVC视图解析器
+#其中：/ 表示目录为src/main/webapp
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
